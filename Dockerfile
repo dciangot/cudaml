@@ -1,6 +1,6 @@
 FROM dciangot/nvidiatmva
 
-ENV ROOTSYS             "/etc/root/"
+ENV ROOTSYS             "/opt/root/"
 ENV PATH                "$ROOTSYS/bin:$ROOTSYS/bin/bin:$PATH"
 ENV PYTHONPATH          "$ROOTSYS/lib:$PYTHONPATH"
 ENV DYLD_LIBRARY_PATH   "$ROOTSYS/lib:$DYLD_LIBRARY_PATH"
