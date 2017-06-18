@@ -1,5 +1,9 @@
 FROM dciangot/nvidiatmva
 
+RUN mkdir /data
+
+WORKDIR /data
+
 ENV ROOTSYS             "/opt/root/"
 ENV PATH                "$ROOTSYS/bin:$ROOTSYS/bin/bin:$PATH"
 ENV PYTHONPATH          "$ROOTSYS/lib:$PYTHONPATH"
