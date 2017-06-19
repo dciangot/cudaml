@@ -1,6 +1,6 @@
 FROM dciangot/nvidiatmva
 
-RUN mkdir /data
+RUN mkdir -p /data
 
 WORKDIR /data
 
