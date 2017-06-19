@@ -8,4 +8,4 @@ Additional pgks available: sklearn, matplotlib, numpy, root_pandas, tensorflow, 
 
     sudo nvidia-docker run -ti --rm -v $PWD:/data -e DISPLAY=$DISPLAY -v $XSOCK:$XSOCK dciangot/cudaml <your command>
 
-If you want to try root cern with TMVA on GPU <your command>=root -l
+If you want to try root cern with TMVA on GPU your command=root -l
