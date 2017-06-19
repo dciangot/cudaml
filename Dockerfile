@@ -13,6 +13,8 @@ ENV LIBPATH             "$ROOTSYS/lib:$LIBPATH"
 ENV MANPATH             "$ROOTSYS/man/man1:$MANPATH"
 ENV JUPYTER_PATH        "$ROOTSYS/etc/notebook:$JUPYTER_PATH"
 
+RUN apt-get install python-tk -y
+
 RUN pip install sklearn && \
     pip install matplotlib && \
     pip install seaborn && \
